@@ -1,0 +1,18 @@
+{
+  "sample1": "1",
+  "sample2": "2",
+  "sample3": "3",
+  "sample4": "4",
+  "deep": {
+    "sample1": "1",
+    "sample2": "2",
+    "sample3": "3",
+    "sample4": "4",
+    "deep2": {
+      "sample1": "1",
+      "sample2": "2",
+      "sample3": "3",
+      "sample4": "4"
+    }
+  }
+}
