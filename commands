@@ -6,3 +6,5 @@ b3 = [val for val in b1 if val in b2]
 # Check if and object is iterable
 hasattr(a, "__iter__")
 
+# Get the next element from a list that matches with a sentence
+next((x for x in lista if x['key'] == 1), None)
