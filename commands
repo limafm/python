@@ -8,3 +8,9 @@ hasattr(a, "__iter__")
 
 # Get the next element from a list that matches with a sentence
 next((x for x in lista if x['key'] == 1), None)
+
+# Remove all the elements that occur in one list from another
+l1 = [1,2,6,8]
+l2 = [2,3,5,8]
+
+l3 = [x for x in l1 if x not in l2]  # l3 will contain [1, 6]
